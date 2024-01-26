@@ -1,0 +1,25 @@
+.errorImageWrap img{
+    width: auto;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+}
+.btnRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goBackBtn{
+    text-decoration: none;
+    background: #140d83;
+    border-radius: 10px;
+    height: 60px;
+    min-width: 200px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}

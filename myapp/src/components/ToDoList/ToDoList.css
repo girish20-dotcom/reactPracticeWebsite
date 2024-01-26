@@ -1,0 +1,69 @@
+.todoSection{
+    background: #7b0e2e;
+    padding: 100px 0;
+}
+.todoSection .todoInner{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.todoSection .todoInner .inputGroup {
+    width: 50%;
+}
+.todoSection .todoInner input{
+    height: 65px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    box-shadow: #000 5px 5px 15px -12px;
+}
+.todoSection .todoInner .todoSubmit button{
+    max-width: 100%;
+    min-width: 200px;
+    height: 65px;
+    background: #4b0b1e;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.todoListItem {
+    margin: 50px 0 0px;
+    padding: 0;
+    display: inline-block;
+}
+.todoListItem li{
+    display: inline-block;
+    border:1px solid #4b0b1e;
+    margin:0 20px 20px 0;
+    border-radius: 50px;
+    color: white;
+    padding: 0 20px 0 0;
+    background: #4b0b1e;
+}
+.todoListItem li span{
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    background: #6d263b;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.todoListItem li:last-child{
+    margin-right:0;
+}
+#messageError{
+    font-size: 16px;
+    color: #ffffff;
+}

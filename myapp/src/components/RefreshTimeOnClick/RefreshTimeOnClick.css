@@ -1,0 +1,26 @@
+.refreshTimeOnClick{
+    background: #fff0ba;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.refreshTimeOnClick h1{
+    font-weight: 600;
+    margin:10px 0;
+    font-size: 64px;
+}
+.refreshTimeOnClick h1 span{
+    color: brown;
+}
+.refreshTimeOnClick button{
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #4953ab;
+    background: #4953ab;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    min-width: 200px;
+}

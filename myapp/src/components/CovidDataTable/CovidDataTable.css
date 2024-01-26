@@ -1,0 +1,87 @@
+.covidData {
+  padding: 100px;
+  background: #719bce2e;
+}
+.covidData h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  color: black;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.covidData table{
+    box-shadow: #000 5px 5px 8px -10px;
+}
+.covidData .actions span{
+    background: #dedede;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+}
+.covidData .actions span:nth-child(1){
+    background: #2b6ae2;
+}
+.covidData .actions span:nth-child(2){
+    background: green;
+}
+.covidData .actions span:nth-child(3){
+    background: #ba0000;
+}
+.covidTable thead {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 100%;
+}
+.covidData table thead tr {
+  background: #002790;
+}
+.covidTable table thead th {
+  text-align: left;
+  width: calc(100% / 6);
+  padding: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  max-width: 100%;
+  font-weight: 600;
+}
+
+.covidTable table tbody tr td {
+  padding: 20px;
+  border-bottom: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  text-align: left;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.covidTable table tbody tr {
+  background: white;
+  border-bottom: 1px solid #dedede;
+  transition: all .1s linear;
+}
+.covidTable table tbody tr:hover{
+    background: #e5edf6;
+}
+
+.covidTable table tbody tr td:last-child {
+  border-right: none;
+}
+
+.covidTable table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+
+.covidTable table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.covidTable table thead th:last-child {
+    border-top-right-radius: 10px;
+}

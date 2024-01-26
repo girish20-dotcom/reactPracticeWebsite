@@ -1,0 +1,95 @@
+.movieBg{
+    background: #ffead7;
+    padding: 0px 0 100px;
+}
+.header{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header h1{
+    margin:0px;
+    font-size: 48px;
+    font-weight: 200;
+    color: #999999;
+    text-transform: uppercase;
+}
+.header h1 span{
+    color: brown;
+}
+.movieContainer{
+    padding-top: 50px;
+}
+.container{
+    max-width: 1320px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.movieRow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px 50px;
+}
+.movieRow .movieCard {
+    box-shadow:#00000008 0px 0px 5px 5px;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+.movieRow .movieCard:hover{
+    transform: translateY(-5px);
+}
+.movieRow .movieCard .movieImg img{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px 10px 0 0;
+}
+.movieRow .movieCard .movieContent{
+    background: white;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.movieRow .movieCard .movieContent h2{
+    margin: 0 0 10px;
+}
+.movieRow .movieCard .movieContent a{
+    color: #333333;
+    padding: 10px;
+    border: 2px solid #333333;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all .3s ease-in;
+}
+.movieRow .movieCard .movieContent a:hover{
+    background: peachpuff;
+    border-color: peachpuff;
+    color: #333333;
+}
+.movieRow .movieCard .movieContent h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+}
+
+.morning{
+    color:green;
+    font-weight: bold;
+}
+.afternoon{
+    color: orange;
+    font-weight: bold;
+}
+.night{
+    color: blueviolet;
+    font-weight: bold;
+}

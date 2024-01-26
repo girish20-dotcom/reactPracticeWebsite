@@ -1,0 +1,13 @@
+.digitalClock{
+    background: #ffc9e2;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.digitalClock h1{
+    font-weight: 600;
+    margin:10px 0;
+    font-size: 64px;
+    color: #00356a;
+}
